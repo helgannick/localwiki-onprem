@@ -16,7 +16,6 @@ Projeto web simples construído com **Flask** e **MySQL**, rodando com **Docker*
 
 ## ⚙️ Como rodar o projeto
 
-```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/localwiki.git
 cd localwiki
