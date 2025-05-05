@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block title %}Artigos - LocalWiki{% endblock %}
+
+{% block content %}
+<h2>Artigos</h2>
+<ul class="list-group">
+    {% for artigo in artigos %}
+        <li class="list-group-item">
+            <strong>{{ artigo.titulo }}</strong><br>
+            <small>Autor: {{ artigo.autor }} | {{ artigo.data }}</small>
+            <p>{{ artigo.conteudo }}</p>
+        </li>
+    {% else %}
+        <li class="list-group-item">Nenhum artigo disponível.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
