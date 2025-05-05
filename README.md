@@ -46,4 +46,4 @@ O projeto é totalmente isolado via Docker
 
 🧑‍💻 Autor
 Marcos Barbosa Carvalho dos Santos
-LinkedIn
+[LinkedIn](https://www.linkedin.com/in/60bb4023b/)
